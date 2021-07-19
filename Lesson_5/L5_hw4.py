@@ -4,3 +4,4 @@ with open('4n.txt', 'w', encoding='utf-8') as nf:
         nf.write(str([line.replace(line.split()[0], rus_dict.get(line.split()[0])) for line in mf]))
 
 
+

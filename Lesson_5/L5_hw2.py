@@ -9,3 +9,4 @@ f.close()
 print(lines_n)
 print(words_n)
 
+

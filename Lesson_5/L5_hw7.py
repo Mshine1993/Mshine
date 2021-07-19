@@ -7,3 +7,4 @@ with open('7.json', 'w') as fw:
                                                    len([int(i) for i in profit.values() if int(i) > 0]))}]
 
     json.dump(result, fw, ensure_ascii=False, indent=4)
+
